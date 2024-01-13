@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.button-primary{
+    color: #fff;
+    border-radius: 8px;
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+  header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li {
+   list-style: none;
+   margin-right: 30px;
+   font-weight: 500px;
+   font-size: 1rem;
+   color: #424242;
+   
+}
+li a{
+    text-decoration: none;
+}
+
+.banner-conteinar{
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  gap: 25px;
+
+}
+.banner-title{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-descripetion{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+}
+.banner img{
+    width: 100%;
+
+}
+main{
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #FFF;
+    
+}   
+.tems-conteinar{
+    display: flex; 
+    margin: 100px;
+    background-color: #fff;  
+    align-items: center;
+    gap: 25px;
+    
+    
+}
+ .image-conteinar{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+   
+ }
+
+.tems-content{
+    padding: 10px;
+    border: 1px solid none;
+}
+.team-content-title{
+ color: #727272;
+ font-size: 45px;
+ font-weight: 500;
+ line-height: normal;
+}
+/* section */
+
+
+.section-conteinar{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-left: 280px;
+    margin-right: 280px;
+    
+}
+.section-itam{
+    border: 1px solid none;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 0px 4px 30px 0px rgb(58, 54, 51);
+    gap: 10px;
+    position: relative;
+   
+ }
+
+
+.section-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    font-style: normal;
+    line-height: normal;
+    width: 468px;
+    padding: 10px;
+}
+
+.section-image{
+    border-radius: 8px;
+    height: 60%;
+    width: 60%;
+    position: relative;
+
+    
+} 
+.section-descripetion{
+     font-family: Work Sans;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px;
+}
+
+
+.years{
+    background-color: #FF900E;
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    display: block;
+    position: absolute;   
+}
+.section2-content{
+    margin: 50px 240px;
+   
+}
+.section2-conteinar{
+    text-align: left;
+    padding: 20px;
+}
+ .some-facts{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+ }
+.facts{
+   justify-items: center;
+   border: 1px solid #FF900E;
+   background: #FFF;
+   border-radius: 8px;
+}
+.facts h1{
+    
+color: var(--Dark-02, #424242);
+text-align: center;
+
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.facts p{
+    
+color: var(--Dark-03, #727272);
+
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.last-main-conteinar{
+    margin: 50px 240px;
+}
+
+.last-main{
+    text-align: center;
+    padding: 20px;
+
+}
+.last-main-img{
+    display: flex;
+    justify-content: space-around;
+}
+.last-mai h2{
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.last-main p{
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.last-main-img img{
+    width: 166.757px;
+    height: 50px;
+}
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    margin: 50px 240px;
+}
